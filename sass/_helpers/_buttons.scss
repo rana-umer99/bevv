@@ -1,0 +1,14 @@
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 16px;
+    min-width:125px;
+    font-family:"Glober", sans-serif;
+    font-weight:bold;
+}
+.btn-secondary{
+    color:map-get($theme-colors,primary);
+    &:hover,&:focus,&:active,&:visited{
+        color:map-get($theme-colors,primary);
+    }
+}

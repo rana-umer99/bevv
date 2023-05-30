@@ -1,0 +1,82 @@
+:root {
+    font-size: 12px;
+    // @media(min-width:1025px){
+    //   font-size: 16px;
+    // }
+}
+
+$theme-colors:(
+    "primary": #F2BA0D,
+    "secondary": #262626,
+    "light": #E3E1D8,
+    "dark": #625C54,
+    "danger": #FF0909,
+    "whiteColor": #FFFFFF,
+    "blackColor": #000000,444
+   
+     "inputPlaceholderColor": #BCC1CB,
+    "textDark": #515151,
+);
+
+$transition: all 0.2s ease 0s;
+
+// Main
+$body-bg: #ffffff;
+$body-color: map-get($theme-colors,secondary);
+$font-family-base: 'Proxima Nova Lt', sans-serif;
+$font-size-base: 1rem;
+
+// Navbar
+$navbar-padding-y: 45px;
+$navbar-padding-x: 45px;
+$navbar-brand-font-size: 2.3333333333333335rem;
+$navbar-dark-brand-color: map-get($theme-colors,whiteColor);
+$navbar-dark-color: map-get($theme-colors,whiteColor);
+$navbar-dark-hover-color: map-get($theme-colors,whiteColor);
+$navbar-dark-active-color: map-get($theme-colors,whiteColor);
+$navbar-nav-link-padding-x: 22px;
+
+// Style anchor elements.
+$link-color: map-get($theme-colors,"primary");
+$link-hover-decoration:     none;
+
+// headings
+$headings-font-weight: 500;
+$headings-font-family:'Glober', sans-serif;;
+$h1-font-size: calculateRem(42px);
+$h2-font-size: calculateRem(36px);
+$h3-font-size: calculateRem(24px);
+$h4-font-size: calculateRem(18px);
+$h5-font-size: calculateRem(18px);
+$h6-font-size: calculateRem(14px);
+
+
+// Buttons
+$btn-font-weight: 500;
+$btn-font-size: 0.9166666666666666rem;
+$btn-border-radius: 0;
+$btn-padding-x: 15px;
+$btn-padding-y: 2px;
+
+
+// Inputs
+$input-btn-font-size:calculateRem(16px);
+$input-height-inner: 51px;
+$input-height: 40px;
+$input-box-shadow-inset: none;
+$input-border-radius: 0;
+$input-border-radius-lg: 48px;
+$input-border-radius-sm: 31px;
+$input-padding-x: 1.125rem;
+$input-focus-box-shadow: none;
+$input-focus-border-color: map-get($theme-colors,primary);
+$input-focus-border-color: none;
+$input-placeholder-color: map-get($theme-colors,inputPlaceholderColor);
+
+// Container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 812px,
+  xl: 812px
+);

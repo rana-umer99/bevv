@@ -1,0 +1,24 @@
+h1{
+    line-height:calculateRem(48px);
+    @media(max-width:767px){
+        font-size: calculateRem(36px);
+    }
+}
+h2{
+    line-height:calculateRem(42px);
+    @media(max-width:767px){
+        font-size: calculateRem(30px);
+    }
+}
+h3{
+    line-height:calculateRem(36px);
+}
+h4{
+    line-height:calculateRem(26px);
+}
+h5{
+    line-height:calculateRem(26px);
+}
+h5{
+    line-height:calculateRem(26px);
+}

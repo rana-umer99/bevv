@@ -1,0 +1,12 @@
+.media-box{
+    @media(min-width:992px){
+        max-width: 365px;
+    }
+    .image-box{
+        max-width:121px;
+        margin-right:30px;
+        img{
+            width:100%;
+        }
+    }
+}

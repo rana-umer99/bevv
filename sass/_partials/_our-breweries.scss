@@ -1,0 +1,58 @@
+.our-breweries{
+    padding:70px 0;
+    .ob-header{
+        max-width:450px;
+        margin-bottom:40px;
+        
+        .obh-inner{
+            max-width:380px;
+            margin-bottom:-2px;
+            h2{
+                margin-bottom:-2px;
+            }
+        }
+        .filter-input{
+            border-color:map-get($theme-colors,danger);
+            height:50px;
+            font-family: "Proxima Nova Lt", sans-serif;
+            font-size:calculateRem(24px);
+            font-weight: 300;
+        }
+        .form-group{
+            margin-bottom:0;
+        }
+    }
+    .media-box{
+        margin-bottom:42px;
+    }
+    .ob-body{
+        margin-bottom:48px;
+    }
+    .view-more{
+        img{
+            display:block;
+            margin:0 auto;
+            margin-top:20px;
+        }
+    }
+
+    &.v2{
+        .image-box{
+            max-width:94px;
+        }
+        .media-body{
+            h3{
+                margin-bottom:0;
+            }
+            p{
+                max-width:185px;
+            }
+        }
+        .ob-body{
+            margin-bottom:0;
+        }
+        .media-box{
+            margin-bottom:28px;
+        }
+    }
+}

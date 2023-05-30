@@ -1,0 +1,36 @@
+.primary-header{
+    .nav-link{
+        font-family:'Proxima Nova Rg', sans-serif;
+        font-size:calculateRem(12px);
+        &.btn{
+            padding-top:calculateRem(3px);
+            padding-bottom:calculateRem(3px);
+            min-width:97px;
+        }
+    }
+    .navbar-collapse{
+        @media(max-width:991px){
+            .navbar-nav{
+                background:map-get($theme-colors,dark);
+                padding:30px;
+                text-align: center;
+            }
+            .btn{
+                max-width:112px;
+                margin:0 auto;
+                margin-bottom:15px;
+            }
+        }
+    }
+    .navbar{
+        transition:all 0.2s ease 0s;
+        @media(max-width:767px){
+            padding:25px;
+        }
+    }
+    
+    .fixed-header{
+        background:rgba(map-get($theme-colors,secondary),0.9);
+        padding:15px 25px;
+    }
+}

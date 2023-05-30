@@ -1,0 +1,12 @@
+.how-it-works{
+    position:relative;
+    background: rgba(map-get($theme-colors,secondary),0.71);
+    .pb-inner{
+        padding-top: 63px;
+        padding-bottom: 42px;        
+    } 
+    p{
+        font-family:'Proxima Nova Rg', sans-serif;
+        font-size:calculateRem(26px);
+    }
+}
